@@ -1,0 +1,107 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+
+.App {
+  text-align: center;
+
+}
+
+.weatherreport {
+  width: 600px;
+  margin: 40px auto;
+  border: 1px dashed black;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+.weatherreport h1 {
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.weatherreport .input-fields {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#temp 
+{
+  font-size: 60px;
+  margin-right: 20px;
+}
+.weatherreport .input-fields input:not([type="submit"]) {
+  padding: 10px;
+  width: 150px;
+  outline: none;
+  border: none;
+  border-bottom: 2px dotted black;
+}
+
+input[type="submit"] {
+  width: 100px;
+  background-color: darkblue;
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.weatherreport .input-fields input:not([type="submit"]):focus
+{
+  background-color: rgb(227, 233, 240);
+}
+.weather-details {
+  /* border: 1px solid black; */
+  width: 500px;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(227, 233, 240);
+}
+.weather-details .name 
+{
+  display: flex;
+  align-items: center;
+}
+.weather-details p
+{
+  display: flex;
+}
+.weather-details .name  h1
+{
+  font-size: 25px;
+}
+.weather-details .details
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.additional-information {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.additional-information .firstcoloumn .firstcoloumn-line,.secondcoloumn-line
+{
+  /* border: 1px solid black; */
+
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+  margin: 10px;
+  padding-bottom: 15px;
+  border-bottom: 2px dotted black;
+
+}
+h3,#time
+{
+  color: grey;
+}
+#temp
+{
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
